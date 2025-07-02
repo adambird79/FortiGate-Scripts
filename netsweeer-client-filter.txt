@@ -1,0 +1,33 @@
+# Add Address Object
+config firewall address
+edit filter.wavenetcloud.netsweeper.com
+set type fqdn
+set fqdn filter.wavenetcloud.netsweeper.com
+next
+end
+
+# Add Firewall Service
+config firewall service custom
+edit clientfilter
+set tcp-portrange 3431-3432
+next
+end
+
+# Add Firewall Policy
+config firewall policy
+edit 99
+set name onGuard
+set srcintf lan
+set dstintf wan
+set action accept
+set srcaddr lan
+set dstaddr filter.wavenetcloud.netsweeper.com
+set schedule always
+set service clientfilter
+set nat enable
+end
+
+# Move Firewall policy priority
+config firewall policy
+move 99 before 1
+end
