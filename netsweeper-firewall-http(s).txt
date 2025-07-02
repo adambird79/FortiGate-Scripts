@@ -1,0 +1,19 @@
+# Add Firewall Policy
+config firewall policy
+edit 198
+set name "Netsweeper HTTP(S)"
+set srcintf lan
+set dstintf wan
+set action accept
+set srcaddr lan
+set dstaddr all
+set schedule always
+set service HTTP HTTPS
+set nat disable 
+set status disable
+end
+
+# Move Firewall policy priority
+config firewall policy
+move 198 before 1
+end
