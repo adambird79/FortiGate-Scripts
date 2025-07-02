@@ -1,0 +1,347 @@
+config firewall address
+edit *.manage.microsoft.com
+set type fqdn
+set fqdn *.manage.microsoft.com
+next
+edit manage.microsoft.com
+set type fqdn
+set fqdn manage.microsoft.com
+next
+edit EnterpriseEnrollment.manage.microsoft.com
+set type fqdn
+set fqdn EnterpriseEnrollment.manage.microsoft.com
+next
+edit 104.46.162.96/27
+set subnet 104.46.162.96/27
+next
+edit 13.67.13.176/28
+set subnet 13.67.13.176/28
+next
+edit 13.67.15.128/27
+set subnet 13.67.15.128/27
+next
+edit 13.69.231.128/28
+set subnet 13.69.231.128/28
+next
+edit 13.69.67.224/28
+set subnet 13.69.67.224/28
+next
+edit 13.70.78.128/28
+set subnet 13.70.78.128/28
+next
+edit 13.70.79.128/27
+set subnet 13.70.79.128/27
+next
+edit 13.74.111.192/27
+set subnet 13.74.111.192/27
+next
+edit 13.77.53.176/28
+set subnet 13.77.53.176/28
+next
+edit 13.86.221.176/28,
+set subnet 13.86.221.176/28,
+next
+edit 13.89.174.240/28
+set subnet 13.89.174.240/28
+next
+edit 13.89.175.192/28
+set subnet 13.89.175.192/28
+next
+edit 20.189.229.0/25
+set subnet 20.189.229.0/25
+next
+edit 20.191.167.0/25
+set subnet 20.191.167.0/25
+next
+edit 20.37.153.0/24
+set subnet 20.37.153.0/24
+next
+edit 20.37.192.128/25
+set subnet 20.37.192.128/25
+next
+edit 20.38.81.0/24
+set subnet 20.38.81.0/24
+next
+edit 20.41.1.0/24
+set subnet 20.41.1.0/24
+next
+edit 20.42.1.0/24
+set subnet 20.42.1.0/24
+next
+edit 20.42.130.0/24
+set subnet 20.42.130.0/24
+next
+edit 20.42.224.128/25
+set subnet 20.42.224.128/25
+next
+edit 20.43.129.0/24
+set subnet 20.43.129.0/24
+next
+edit 20.44.19.224/27
+set subnet 20.44.19.224/27
+next
+edit 40.119.8.128/25
+set subnet 40.119.8.128/25
+next
+edit 40.67.121.224/27
+set subnet 40.67.121.224/27
+next
+edit 40.70.151.32/28
+set subnet 40.70.151.32/28
+next
+edit 40.71.14.96/28
+set subnet 40.71.14.96/28
+next
+edit 40.74.25.0/24
+set subnet 40.74.25.0/24
+next
+edit 40.78.245.240/28
+set subnet 40.78.245.240/28
+next
+edit 40.78.247.128/27
+set subnet 40.78.247.128/27
+next
+edit 40.79.197.64/27
+set subnet 40.79.197.64/27
+next
+edit 40.79.197.96/28
+set subnet 40.79.197.96/28
+next
+edit 40.80.180.208/28
+set subnet 40.80.180.208/28
+next
+edit 40.80.180.224/27
+set subnet 40.80.180.224/27
+next
+edit 40.80.184.128/25
+set subnet 40.80.184.128/25
+next
+edit 40.82.248.224/28
+set subnet 40.82.248.224/28
+next
+edit 40.82.249.128/25
+set subnet 40.82.249.128/25
+next
+edit 52.150.137.0/25
+set subnet 52.150.137.0/25
+next
+edit 52.162.111.96/28
+set subnet 52.162.111.96/28
+next
+edit 52.168.116.128/27
+set subnet 52.168.116.128/27
+next
+edit 52.182.141.192/27
+set subnet 52.182.141.192/27
+next
+edit 52.236.189.96/27
+set subnet 52.236.189.96/27
+next
+edit 52.240.244.160/27
+set subnet 52.240.244.160/27
+next
+edit 20.204.193.12/30
+set subnet 20.204.193.12/30
+next
+edit 20.204.193.10/31
+set subnet 20.204.193.10/31
+next
+edit 20.192.174.216/29
+set subnet 20.192.174.216/29
+next
+edit 20.192.159.40/29
+set subnet 20.192.159.40/29
+next
+edit 104.208.197.64/27
+set subnet 104.208.197.64/27
+next
+edit 172.160.217.160/27
+set subnet 172.160.217.160/27
+next
+edit 172.201.237.160/27
+set subnet 172.201.237.160/27
+next
+edit 172.202.86.192/27
+set subnet 172.202.86.192/27
+next
+edit 172.205.63.0/25
+set subnet 172.205.63.0/25
+next
+edit 172.212.214.0/25
+set subnet 172.212.214.0/25
+next
+edit 172.215.131.0/27
+set subnet 172.215.131.0/27
+next
+edit 20.168.189.128/27
+set subnet 20.168.189.128/27
+next
+edit 20.199.207.192/28
+set subnet 20.199.207.192/28
+next
+edit 20.204.194.128/31
+set subnet 20.204.194.128/31
+next
+edit 20.208.149.192/27
+set subnet 20.208.149.192/27
+next
+edit 20.208.157.128/27
+set subnet 20.208.157.128/27
+next
+edit 20.214.131.176/29
+set subnet 20.214.131.176/29
+next
+edit 20.43.129.0/24
+set subnet 20.43.129.0/24
+next
+edit 20.91.147.72/29
+set subnet 20.91.147.72/29
+next
+edit 4.145.74.224/27
+set subnet 4.145.74.224/27
+next
+edit 4.150.254.64/27
+set subnet 4.150.254.64/27
+next
+edit 4.154.145.224/27
+set subnet 4.154.145.224/27
+next
+edit 4.200.254.32/27
+set subnet 4.200.254.32/27
+next
+edit 4.207.244.0/27
+set subnet 4.207.244.0/27
+next
+edit 4.213.25.64/27
+set subnet 4.213.25.64/27
+next
+edit 4.213.86.128/25
+set subnet 4.213.86.128/25
+next
+edit 4.216.205.32/27
+set subnet 4.216.205.32/27
+next
+edit 4.237.143.128/25
+set subnet 4.237.143.128/25
+next
+edit 40.84.70.128/25
+set subnet 40.84.70.128/25
+next
+edit 48.218.252.128/25
+set subnet 48.218.252.128/25
+next
+edit 57.151.0.192/27
+set subnet 57.151.0.192/27
+next
+edit 57.153.235.0/25
+set subnet 57.153.235.0/25
+next
+edit 57.154.140.128/25
+set subnet 57.154.140.128/25
+next
+edit 57.154.195.0/25
+set subnet 57.154.195.0/25
+next
+edit 57.155.45.128/25
+set subnet 57.155.45.128/25
+next
+edit 68.218.134.96/27
+set subnet 68.218.134.96/27
+next
+edit 74.224.214.64/27
+set subnet 74.224.214.64/27
+next
+edit 74.242.35.0/25
+set subnet 74.242.35.0/25
+next
+edit 172.208.170.0/25
+set subnet 172.208.170.0/25
+next
+edit 74.241.231.0/25
+set subnet 74.241.231.0/25
+next
+edit 74.242.184.128/25
+set subnet 74.242.184.128/25
+next
+edit *.do.dsp.mp.microsoft.com
+set type fqdn
+set fqdn *.do.dsp.mp.microsoft.com
+next
+edit *.dl.delivery.mp.microsoft.com
+set type fqdn
+set fqdn *.dl.delivery.mp.microsoft.com
+next
+edit swda01-mscdn.manage.microsoft.com
+set type fqdn
+set fqdn swda01-mscdn.manage.microsoft.com
+next
+edit swda02-mscdn.manage.microsoft.com
+set type fqdn
+set fqdn swda02-mscdn.manage.microsoft.com
+next
+edit swdb01-mscdn.manage.microsoft.com
+set type fqdn
+set fqdn swdb01-mscdn.manage.microsoft.com
+next
+edit swdb02-mscdn.manage.microsoft.com
+set type fqdn
+set fqdn swdb02-mscdn.manage.microsoft.com
+next
+edit swdc01-mscdn.manage.microsoft.com
+set type fqdn
+set fqdn swdc01-mscdn.manage.microsoft.com
+next
+edit swdc02-mscdn.manage.microsoft.com
+set type fqdn
+set fqdn swdc02-mscdn.manage.microsoft.com
+next
+edit swdd01-mscdn.manage.microsoft.com
+set type fqdn
+set fqdn swdd01-mscdn.manage.microsoft.com
+next
+edit swdd02-mscdn.manage.microsoft.com
+set type fqdn
+set fqdn swdd02-mscdn.manage.microsoft.com
+next
+edit swdin01-mscdn.manage.microsoft.com
+set type fqdn
+set fqdn swdin01-mscdn.manage.microsoft.com
+next
+edit swdin02-mscdn.manage.microsoft.com
+set type fqdn
+set fqdn swdin02-mscdn.manage.microsoft.com
+next
+edit account.live.com
+set type fqdn
+set fqdn account.live.com
+next
+edit login.live.com
+set type fqdn
+set fqdn login.live.com
+next
+edit go.microsoft.com
+set type fqdn
+set fqdn go.microsoft.com
+next
+edit config.edge.skype.com
+set type fqdn
+set fqdn config.edge.skype.com
+next
+edit ecs.office.com
+set type fqdn
+set fqdn ecs.office.com
+next
+edit fd.api.orgmsg.microsoft.com
+set type fqdn
+set fqdn fd.api.orgmsg.microsoft.com
+next
+edit ris.prod.api.personalization.ideas.microsoft.com
+set type fqdn
+set fqdn ris.prod.api.personalization.ideas.microsoft.com
+next
+end
+config firewall addrgrp
+edit "intune"
+set member "*.manage.microsoft.com" "manage.microsoft.com" "EnterpriseEnrollment.manage.microsoft.com" "104.46.162.96/27" "13.67.13.176/28" "13.67.15.128/27" "13.69.231.128/28" "13.69.67.224/28" "13.70.78.128/28" "13.70.79.128/27" "13.74.111.192/27" "13.77.53.176/28" "13.86.221.176/28," "13.89.174.240/28" "13.89.175.192/28" "20.189.229.0/25" "20.191.167.0/25" "20.37.153.0/24" "20.37.192.128/25" "20.38.81.0/24" "20.41.1.0/24" "20.42.1.0/24" "20.42.130.0/24" "20.42.224.128/25" "20.43.129.0/24" "20.44.19.224/27" "40.119.8.128/25" "40.67.121.224/27" "40.70.151.32/28" "40.71.14.96/28" "40.74.25.0/24" "40.78.245.240/28" "40.78.247.128/27" "40.79.197.64/27" "40.79.197.96/28" "40.80.180.208/28" "40.80.180.224/27" "40.80.184.128/25" "40.82.248.224/28" "40.82.249.128/25" "52.150.137.0/25" "52.162.111.96/28" "52.168.116.128/27" "52.182.141.192/27" "52.236.189.96/27" "52.240.244.160/27" "20.204.193.12/30" "20.204.193.10/31" "20.192.174.216/29" "20.192.159.40/29" "104.208.197.64/27" "172.160.217.160/27" "172.201.237.160/27" "172.202.86.192/27" "172.205.63.0/25" "172.212.214.0/25" "172.215.131.0/27" "20.168.189.128/27" "20.199.207.192/28" "20.204.194.128/31" "20.208.149.192/27" "20.208.157.128/27" "20.214.131.176/29" "20.91.147.72/29" "4.145.74.224/27" "4.150.254.64/27" "4.154.145.224/27" "4.200.254.32/27" "4.207.244.0/27" "4.213.25.64/27" "4.213.86.128/25" "4.216.205.32/27" "4.237.143.128/25" "40.84.70.128/25" "48.218.252.128/25" "57.151.0.192/27" "57.153.235.0/25" "57.154.140.128/25" "57.154.195.0/25" "57.155.45.128/25" "68.218.134.96/27" "74.224.214.64/27" "74.242.35.0/25" "172.208.170.0/25" "74.241.231.0/25" "74.242.184.128/25" "*.do.dsp.mp.microsoft.com" "*.dl.delivery.mp.microsoft.com" "swda01-mscdn.manage.microsoft.com" "swda02-mscdn.manage.microsoft.com" "swdb01-mscdn.manage.microsoft.com" "swdb02-mscdn.manage.microsoft.com" "swdc01-mscdn.manage.microsoft.com" "swdc02-mscdn.manage.microsoft.com" "swdd01-mscdn.manage.microsoft.com" "swdd02-mscdn.manage.microsoft.com" "swdin01-mscdn.manage.microsoft.com" "swdin02-mscdn.manage.microsoft.com" "account.live.com" "login.live.com" "go.microsoft.com" "config.edge.skype.com" "ecs.office.com" "fd.api.orgmsg.microsoft.com" "ris.prod.api.personalization.ideas.microsoft.com"
+next
+end
