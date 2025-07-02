@@ -1,0 +1,515 @@
+# adds Aruba Networks FQDNs to the firewall address list
+# https://arubanetworking.hpe.com/techdocs/central/2.5.8/content/nms/device-mgmt/communication_ports.htm
+# 2nd July 2025
+
+config firewall address
+edit app1.central.arubanetworks.com
+set type fqdn
+set fqdn app1.central.arubanetworks.com
+next
+edit device-prod2.central.arubanetworks.com
+set type fqdn
+set fqdn device-prod2.central.arubanetworks.com
+next
+edit device-uswest4.central.arubanetworks.com
+set type fqdn
+set fqdn device-uswest4.central.arubanetworks.com
+next
+edit device-uswest5.central.arubanetworks.com
+set type fqdn
+set fqdn device-uswest5.central.arubanetworks.com
+next
+edit device-eu.central.arubanetworks.com
+set type fqdn
+set fqdn device-eu.central.arubanetworks.com
+next
+edit device-eucentral2.central.arubanetworks.com
+set type fqdn
+set fqdn device-eucentral2.central.arubanetworks.com
+next
+edit device-eucentral3.central.arubanetworks.com
+set type fqdn
+set fqdn device-eucentral3.central.arubanetworks.com
+next
+edit device-ca.central.arubanetworks.com
+set type fqdn
+set fqdn device-ca.central.arubanetworks.com
+next
+edit device.central.arubanetworks.com.cn
+set type fqdn
+set fqdn device.central.arubanetworks.com.cn
+next
+edit device-china2.central.arubanetworks.com.cn
+set type fqdn
+set fqdn device-china2.central.arubanetworks.com.cn
+next
+edit app1-ap.central.arubanetworks.com
+set type fqdn
+set fqdn app1-ap.central.arubanetworks.com
+next
+edit device-apaceast.central.arubanetworks.com
+set type fqdn
+set fqdn device-apaceast.central.arubanetworks.com
+next
+edit device-apacsouth.central.arubanetworks.com
+set type fqdn
+set fqdn device-apacsouth.central.arubanetworks.com
+next
+edit device-uaenorth1.central.arubanetworks.com
+set type fqdn
+set fqdn device-uaenorth1.central.arubanetworks.com
+next
+edit app1.hybrid.central.arubanetworks.com
+set type fqdn
+set fqdn app1.hybrid.central.arubanetworks.com
+next
+edit hc-prod2.central.arubanetworks.com
+set type fqdn
+set fqdn hc-prod2.central.arubanetworks.com
+next
+edit uswest4-hc.central.arubanetworks.com
+set type fqdn
+set fqdn uswest4-hc.central.arubanetworks.com
+next
+edit uswest5-hc.central.arubanetworks.com
+set type fqdn
+set fqdn uswest5-hc.central.arubanetworks.com
+next
+edit central-eu-hc.central.arubanetworks.com
+set type fqdn
+set fqdn central-eu-hc.central.arubanetworks.com
+next
+edit eucentral2-hc.central.arubanetworks.com
+set type fqdn
+set fqdn eucentral2-hc.central.arubanetworks.com
+next
+edit eucentral3-hc.central.arubanetworks.com
+set type fqdn
+set fqdn eucentral3-hc.central.arubanetworks.com
+next
+edit ca-hc.central.arubanetworks.com
+set type fqdn
+set fqdn ca-hc.central.arubanetworks.com
+next
+edit china-prod-hc.central.arubanetworks.com.cn
+set type fqdn
+set fqdn china-prod-hc.central.arubanetworks.com.cn
+next
+edit china2-hc.central.arubanetworks.com.cn
+set type fqdn
+set fqdn china2-hc.central.arubanetworks.com.cn
+next
+edit apac-hc.central.arubanetworks.com
+set type fqdn
+set fqdn apac-hc.central.arubanetworks.com
+next
+edit apaceast-hc.central.arubanetworks.com
+set type fqdn
+set fqdn apaceast-hc.central.arubanetworks.com
+next
+edit apacsouth-hc.central.arubanetworks.com
+set type fqdn
+set fqdn apacsouth-hc.central.arubanetworks.com
+next
+edit uaenorth1.central.arubanetworks.com
+set type fqdn
+set fqdn uaenorth1.central.arubanetworks.com
+next
+edit device-prod-d2.central.arubanetworks.com
+set type fqdn
+set fqdn device-prod-d2.central.arubanetworks.com
+next
+edit device-central-prod2-d2.central.arubanetworks.com
+set type fqdn
+set fqdn device-central-prod2-d2.central.arubanetworks.com
+next
+edit device-uswest4-d2.central.arubanetworks.com
+set type fqdn
+set fqdn device-uswest4-d2.central.arubanetworks.com
+next
+edit device-uswest5-d2.central.arubanetworks.com
+set type fqdn
+set fqdn device-uswest5-d2.central.arubanetworks.com
+next
+edit device-eu-d2.central.arubanetworks.com
+set type fqdn
+set fqdn device-eu-d2.central.arubanetworks.com
+next
+edit device-eucentral2-d2.central.arubanetworks.com
+set type fqdn
+set fqdn device-eucentral2-d2.central.arubanetworks.com
+next
+edit device-eucentral3-d2.central.arubanetworks.com
+set type fqdn
+set fqdn device-eucentral3-d2.central.arubanetworks.com
+next
+edit device-ca.central.arubanetworks.com
+set type fqdn
+set fqdn device-ca.central.arubanetworks.com
+next
+edit device-china-prod-d2.central.arubanetworks.com.cn
+set type fqdn
+set fqdn device-china-prod-d2.central.arubanetworks.com.cn
+next
+edit device-china2-d2.central.arubanetworks.com.cn
+set type fqdn
+set fqdn device-china2-d2.central.arubanetworks.com.cn
+next
+edit device-apac-d2.central.arubanetworks.com
+set type fqdn
+set fqdn device-apac-d2.central.arubanetworks.com
+next
+edit device-apaceast.central.arubanetworks.com
+set type fqdn
+set fqdn device-apaceast.central.arubanetworks.com
+next
+edit device-apacsouth.central.arubanetworks.com
+set type fqdn
+set fqdn device-apacsouth.central.arubanetworks.com
+next
+edit device-uaenorth1-d2.central.arubanetworks.com
+set type fqdn
+set fqdn device-uaenorth1-d2.central.arubanetworks.com
+next
+edit device.arubanetworks.com
+set type fqdn
+set fqdn device.arubanetworks.com
+next
+edit devices-v2.arubanetworks.com
+set type fqdn
+set fqdn devices-v2.arubanetworks.com
+next
+edit est.arubanetworks.com
+set type fqdn
+set fqdn est.arubanetworks.com
+next
+edit naw2.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn naw2.cloudguest.central.arubanetworks.com
+next
+edit naw2-elb.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn naw2-elb.cloudguest.central.arubanetworks.com
+next
+edit nae1.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn nae1.cloudguest.central.arubanetworks.com
+next
+edit nae1-elb.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn nae1-elb.cloudguest.central.arubanetworks.com
+next
+edit uswest4.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn uswest4.cloudguest.central.arubanetworks.com
+next
+edit uswest4-elb.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn uswest4-elb.cloudguest.central.arubanetworks.com
+next
+edit naw2.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn naw2.cloudguest.central.arubanetworks.com
+next
+edit naw2-elb.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn naw2-elb.cloudguest.central.arubanetworks.com
+next
+edit euw1.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn euw1.cloudguest.central.arubanetworks.com
+next
+edit euw1-elb.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn euw1-elb.cloudguest.central.arubanetworks.com
+next
+edit euw2.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn euw2.cloudguest.central.arubanetworks.com
+next
+edit euw2-elb.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn euw2-elb.cloudguest.central.arubanetworks.com
+next
+edit euw3.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn euw3.cloudguest.central.arubanetworks.com
+next
+edit euw3-elb.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn euw3-elb.cloudguest.central.arubanetworks.com
+next
+edit ca.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn ca.cloudguest.central.arubanetworks.com
+next
+edit ca-elb.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn ca-elb.cloudguest.central.arubanetworks.com
+next
+edit cloudguest.central.arubanetworks.com.cn
+set type fqdn
+set fqdn cloudguest.central.arubanetworks.com.cn
+next
+edit cloudguest-elb.central.arubanetworks.com.cn
+set type fqdn
+set fqdn cloudguest-elb.central.arubanetworks.com.cn
+next
+edit naw2.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn naw2.cloudguest.central.arubanetworks.com
+next
+edit naw2-elb.cloudguest-elb.central.arubanetworks.com
+set type fqdn
+set fqdn naw2-elb.cloudguest-elb.central.arubanetworks.com
+next
+edit ap1.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn ap1.cloudguest.central.arubanetworks.com
+next
+edit ap1-elb.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn ap1-elb.cloudguest.central.arubanetworks.com
+next
+edit apaceast.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn apaceast.cloudguest.central.arubanetworks.com
+next
+edit apaceast-elb.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn apaceast-elb.cloudguest.central.arubanetworks.com
+next
+edit apacsouth.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn apacsouth.cloudguest.central.arubanetworks.com
+next
+edit apacsouth-elb.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn apacsouth-elb.cloudguest.central.arubanetworks.com
+next
+edit asw1.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn asw1.cloudguest.central.arubanetworks.com
+next
+edit asw1-elb.cloudguest.central.arubanetworks.com
+set type fqdn
+set fqdn asw1-elb.cloudguest.central.arubanetworks.com
+next
+edit app2-ofc.central.arubanetworks.com
+set type fqdn
+set fqdn app2-ofc.central.arubanetworks.com
+next
+edit ofc-prod2.central.arubanetworks.com
+set type fqdn
+set fqdn ofc-prod2.central.arubanetworks.com
+next
+edit ofc-uswest4.central.arubanetworks.com
+set type fqdn
+set fqdn ofc-uswest4.central.arubanetworks.com
+next
+edit ofc-uswest5.central.arubanetworks.com
+set type fqdn
+set fqdn ofc-uswest5.central.arubanetworks.com
+next
+edit app2-eu-ofc.central.arubanetworks.com
+set type fqdn
+set fqdn app2-eu-ofc.central.arubanetworks.com
+next
+edit ofc-eucentral2.central.arubanetworks.com
+set type fqdn
+set fqdn ofc-eucentral2.central.arubanetworks.com
+next
+edit ofc-eucentral3.central.arubanetworks.com
+set type fqdn
+set fqdn ofc-eucentral3.central.arubanetworks.com
+next
+edit ofc-ca.central.arubanetworks.com
+set type fqdn
+set fqdn ofc-ca.central.arubanetworks.com
+next
+edit ofc.central.arubanetworks.com.cn
+set type fqdn
+set fqdn ofc.central.arubanetworks.com.cn
+next
+edit ofc-china2.central.arubanetworks.com.cn
+set type fqdn
+set fqdn ofc-china2.central.arubanetworks.com.cn
+next
+edit app2-ap-ofc.central.arubanetworks.com
+set type fqdn
+set fqdn app2-ap-ofc.central.arubanetworks.com
+next
+edit ofc-apaceast.central.arubanetworks.com
+set type fqdn
+set fqdn ofc-apaceast.central.arubanetworks.com
+next
+edit ofc-apacsouth.central.arubanetworks.com
+set type fqdn
+set fqdn ofc-apacsouth.central.arubanetworks.com
+next
+edit ofc-uaenorth1.central.arubanetworks.com
+set type fqdn
+set fqdn ofc-uaenorth1.central.arubanetworks.com
+next
+edit rcs-ng-prod.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-prod.central.arubanetworks.com
+next
+edit rcs-ng-xp-prod.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-xp-prod.central.arubanetworks.com
+next
+edit rcs-ng-central-prod2.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-central-prod2.central.arubanetworks.com
+next
+edit rcs-ng-xp-central-prod2.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-xp-central-prod2.central.arubanetworks.com
+next
+edit rcs-ng-uswest4.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-uswest4.central.arubanetworks.com
+next
+edit rcs-ng-xp-uswest4.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-xp-uswest4.central.arubanetworks.com
+next
+edit rcs-ng-uswest5.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-uswest5.central.arubanetworks.com
+next
+edit rcs-ng-eu.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-eu.central.arubanetworks.com
+next
+edit rcs-ng-xp-eu.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-xp-eu.central.arubanetworks.com
+next
+edit rcs-ng-eucentral2.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-eucentral2.central.arubanetworks.com
+next
+edit rcs-ng-xp-eucentral2.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-xp-eucentral2.central.arubanetworks.com
+next
+edit rcs-ng-eucentral3.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-eucentral3.central.arubanetworks.com
+next
+edit rcs-ng-xp-eucentral3.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-xp-eucentral3.central.arubanetworks.com
+next
+edit rcs-ng-starman.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-starman.central.arubanetworks.com
+next
+edit rcs-ng-xp-starman.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-xp-starman.central.arubanetworks.com
+next
+edit rcs-ng-china-prod.central.arubanetworks.com.cn
+set type fqdn
+set fqdn rcs-ng-china-prod.central.arubanetworks.com.cn
+next
+edit rcs-ng-china2.central.arubanetworks.com.cn
+set type fqdn
+set fqdn rcs-ng-china2.central.arubanetworks.com.cn
+next
+edit rcs-ng-apac.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-apac.central.arubanetworks.com
+next
+edit rcs-ng-xp-apac.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-xp-apac.central.arubanetworks.com
+next
+edit rcs-ng-apaceast.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-apaceast.central.arubanetworks.com
+next
+edit rcs-ng-xp-apaceast.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-xp-apaceast.central.arubanetworks.com
+next
+edit rcs-ng-apacsouth.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-apacsouth.central.arubanetworks.com
+next
+edit rcs-ng-xp-apacsouth.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-xp-apacsouth.central.arubanetworks.com
+next
+edit rcs-ng-uaenorth1.central.arubanetworks.com
+set type fqdn
+set fqdn rcs-ng-uaenorth1.central.arubanetworks.com
+next
+edit sso.arubanetworks.com
+set type fqdn
+set fqdn sso.arubanetworks.com
+next
+edit internal.central.arubanetworks.com
+set type fqdn
+set fqdn internal.central.arubanetworks.com
+next
+edit internal2.central.arubanetworks.com
+set type fqdn
+set fqdn internal2.central.arubanetworks.com
+next
+edit pool.ntp.org
+set type fqdn
+set fqdn pool.ntp.org
+next
+edit activate.arubanetworks.com
+set type fqdn
+set fqdn activate.arubanetworks.com
+next
+edit stun.pqm.arubanetworks.com
+set type fqdn
+set fqdn stun.pqm.arubanetworks.com
+next
+edit pqm.arubanetworks.com
+set type fqdn
+set fqdn pqm.arubanetworks.com
+next
+edit h30326.www3.hpe.com
+set type fqdn
+set fqdn h30326.www3.hpe.com
+next
+edit common.cloud.hpe.com
+set type fqdn
+set fqdn common.cloud.hpe.com
+next
+edit d20kce0f6gvxjn.cloudfront.net
+set type fqdn
+set fqdn d20kce0f6gvxjn.cloudfront.net
+next
+edit cloud.arubanetworks.com
+set type fqdn
+set fqdn cloud.arubanetworks.com
+next
+edit aruba.brightcloud.com
+set type fqdn
+set fqdn aruba.brightcloud.com
+next
+edit bcap15-dualstack.brightcloud.com
+set type fqdn
+set fqdn bcap15-dualstack.brightcloud.com
+next
+edit api-dualstack.bcti.brightcloud.com
+set type fqdn
+set fqdn api-dualstack.bcti.brightcloud.com
+next
+edit database-dualstack.brightcloud.com
+set type fqdn
+set fqdn database-dualstack.brightcloud.com
+next
+
+end
+config firewall addrgrp
+edit "arubanetworks"
+set member "arubanetworks.com" "app1.central.arubanetworks.com" "device-prod2.central.arubanetworks.com" "device-uswest4.central.arubanetworks.com" "device-uswest5.central.arubanetworks.com" "device-eu.central.arubanetworks.com" "device-eucentral2.central.arubanetworks.com" "device-eucentral3.central.arubanetworks.com" "device-ca.central.arubanetworks.com" "device.central.arubanetworks.com.cn" "device-china2.central.arubanetworks.com.cn" "app1-ap.central.arubanetworks.com" "device-apaceast.central.arubanetworks.com" "device-apacsouth.central.arubanetworks.com" "device-uaenorth1.central.arubanetworks.com" "app1.hybrid.central.arubanetworks.com" "hc-prod2.central.arubanetworks.com" "uswest4-hc.central.arubanetworks.com" "uswest5-hc.central.arubanetworks.com" "central-eu-hc.central.arubanetworks.com" "eucentral2-hc.central.arubanetworks.com" "eucentral3-hc.central.arubanetworks.com" "ca-hc.central.arubanetworks.com" "china-prod-hc.central.arubanetworks.com.cn" "china2-hc.central.arubanetworks.com.cn" "apac-hc.central.arubanetworks.com" "apaceast-hc.central.arubanetworks.com" "apacsouth-hc.central.arubanetworks.com" "uaenorth1.central.arubanetworks.com" "device-prod-d2.central.arubanetworks.com" "device-central-prod2-d2.central.arubanetworks.com" "device-uswest4-d2.central.arubanetworks.com" "device-uswest5-d2.central.arubanetworks.com" "device-eu-d2.central.arubanetworks.com" "device-eucentral2-d2.central.arubanetworks.com" "device-eucentral3-d2.central.arubanetworks.com" "device-china-prod-d2.central.arubanetworks.com.cn" "device-china2-d2.central.arubanetworks.com.cn" "device-apac-d2.central.arubanetworks.com" "device-uaenorth1-d2.central.arubanetworks.com" "device.arubanetworks.com" "devices-v2.arubanetworks.com" "est.arubanetworks.com" "naw2.cloudguest.central.arubanetworks.com" "naw2-elb.cloudguest.central.arubanetworks.com" "nae1.cloudguest.central.arubanetworks.com" "nae1-elb.cloudguest.central.arubanetworks.com" "uswest4.cloudguest.central.arubanetworks.com" "uswest4-elb.cloudguest.central.arubanetworks.com" "euw1.cloudguest.central.arubanetworks.com" "euw1-elb.cloudguest.central.arubanetworks.com" "euw2.cloudguest.central.arubanetworks.com" "euw2-elb.cloudguest.central.arubanetworks.com" "euw3.cloudguest.central.arubanetworks.com" "euw3-elb.cloudguest.central.arubanetworks.com" "ca.cloudguest.central.arubanetworks.com" "ca-elb.cloudguest.central.arubanetworks.com" "cloudguest.central.arubanetworks.com.cn" "cloudguest-elb.central.arubanetworks.com.cn" "naw2-elb.cloudguest-elb.central.arubanetworks.com" "ap1.cloudguest.central.arubanetworks.com" "ap1-elb.cloudguest.central.arubanetworks.com" "apaceast.cloudguest.central.arubanetworks.com" "apaceast-elb.cloudguest.central.arubanetworks.com" "apacsouth.cloudguest.central.arubanetworks.com" "apacsouth-elb.cloudguest.central.arubanetworks.com" "asw1.cloudguest.central.arubanetworks.com" "asw1-elb.cloudguest.central.arubanetworks.com" "ofc-uswest4.central.arubanetworks.com" "ofc-prod2.central.arubanetworks.com" "app2-ofc.central.arubanetworks.com" "ofc-uswest5.central.arubanetworks.com" "app2-eu-ofc.central.arubanetworks.com" "ofc-eucentral2.central.arubanetworks.com" "ofc-eucentral3.central.arubanetworks.com" "ofc-ca.central.arubanetworks.com" "ofc.central.arubanetworks.com.cn" "ofc-china2.central.arubanetworks.com.cn" "app2-ap-ofc.central.arubanetworks.com" "ofc-apaceast.central.arubanetworks.com" "ofc-apacsouth.central.arubanetworks.com" "ofc-uaenorth1.central.arubanetworks.com" "rcs-ng-prod.central.arubanetworks.com" "rcs-ng-xp-prod.central.arubanetworks.com" "rcs-ng-central-prod2.central.arubanetworks.com" "rcs-ng-xp-central-prod2.central.arubanetworks.com" "rcs-ng-uswest4.central.arubanetworks.com" "rcs-ng-xp-uswest4.central.arubanetworks.com" "rcs-ng-uswest5.central.arubanetworks.com" "rcs-ng-xp-eu.central.arubanetworks.com" "rcs-ng-eu.central.arubanetworks.com" "rcs-ng-eucentral2.central.arubanetworks.com" "rcs-ng-xp-eucentral2.central.arubanetworks.com" "rcs-ng-eucentral3.central.arubanetworks.com" "rcs-ng-xp-eucentral3.central.arubanetworks.com" "rcs-ng-starman.central.arubanetworks.com" "rcs-ng-xp-starman.central.arubanetworks.com" "rcs-ng-china-prod.central.arubanetworks.com.cn" "rcs-ng-apac.central.arubanetworks.com" "rcs-ng-china2.central.arubanetworks.com.cn" "rcs-ng-xp-apac.central.arubanetworks.com" "rcs-ng-apaceast.central.arubanetworks.com" "rcs-ng-xp-apaceast.central.arubanetworks.com" "rcs-ng-apacsouth.central.arubanetworks.com" "rcs-ng-xp-apacsouth.central.arubanetworks.com" "rcs-ng-uaenorth1.central.arubanetworks.com" "sso.arubanetworks.com" "internal2.central.arubanetworks.com" "internal.central.arubanetworks.com" "pool.ntp.org" "activate.arubanetworks.com" "stun.pqm.arubanetworks.com" "pqm.arubanetworks.com" "h30326.www3.hpe.com" "common.cloud.hpe.com" "cloud.arubanetworks.com" "aruba.brightcloud.com" "bcap15-dualstack.brightcloud.com" "api-dualstack.bcti.brightcloud.com" "database-dualstack.brightcloud.com" "d20kce0f6gvxjn.cloudfront.net"
+next 
